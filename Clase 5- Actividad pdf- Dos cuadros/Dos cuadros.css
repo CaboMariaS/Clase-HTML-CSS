@@ -1,0 +1,20 @@
+body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #ffffff;
+    }
+    .cuadro1 {
+      width: 400px;
+      height: 400px;
+      background-color: #8f69c2;
+    }
+    .cuadro2{
+        width: 400px;
+      height: 400px;
+      background-color: #6b1dc4;
+    }
+    
