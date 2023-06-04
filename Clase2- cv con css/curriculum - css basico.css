@@ -1,0 +1,31 @@
+body{
+    background-color: cadetblue;
+    margin: 50px 0 50px 100px;
+}
+body h1{
+    color:rgb(12, 49, 99);
+    font-size: 40;
+    text-align: center;
+    font-family:sans-serif;
+}
+h1{
+    background-color: beige;
+    font-family: 'Times New Roman', Times, serif;
+}
+body h2{
+    color:rgb(12, 49, 99);
+    background-color: beige;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+p{
+    background-color: aqua;
+}
+li{
+    background-color: aqua;
+}
+.card img{
+    max-width: 400px;
+    border-bottom: 1px solid rgba(0, g0, 0, 3);
+    align-items:center
+}
