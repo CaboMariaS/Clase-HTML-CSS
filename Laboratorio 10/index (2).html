@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweaters</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-success">
+        <div class="container-fluid">
+          <nav class="navbar background-color:red">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="https://img.freepik.com/vector-premium/tienda-moda-mujer-diseno-logotipo-centro-comercial-boutique-ropa-venta_742608-139.jpg" alt="Bootstrap" width="50" height="50">
+              </a>
+            </div>
+          </nav>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" aria-current="page" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Ver todos los productos</a></li>
+                  <li><a class="dropdown-item" href="#">Sweaters</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Nosotros</a>
+              </li>
+            </ul>
+            <button type="button" class="btn btn-secondary btn-md mx-3">Carrito<i class="bi bi-cart3"></i></button>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn btn-danger" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+  </header>
+  <main class="d-flex flex-row mb-2 w-100 bg-dark">
+      <br>
+      <div id="carouselExampleDark" class="carousel carousel-dark slide d-block w-50 p-2" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img src="https://fjallraven.cl/cdn/shop/products/7323450530082_fw19_a_oevik_nordic_sweater_w_fjaellraeven_21_258b3ee5-db09-4a72-9e39-0a24c6650b2e_300x.jpg?v=1687207392" class="d-block w-100 h-100" alt="noimage">
+            <div class="carousel-caption d-none d-md-block">
+          
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="https://i.pinimg.com/originals/0d/5a/dd/0d5add1ee07f5d1018babfc4075d725e.jpg" class="d-block w-100 h-100" alt="noimage">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="https://cdn.shopify.com/s/files/1/0018/9225/3766/products/ws-nansen-split-seam-sweater-100-wool-shirt-devold-flood-s-448926_300x.jpg?v=1660985083" class="d-block w-100 h-100" alt="noimage">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4 p-2 w-75">
+        <div class="col">
+          <div class="card h-100">
+              <img src="https://ae04.alicdn.com/kf/S1000d7e2e3cb449f8655d73f60a5c5daI.jpg_300x300Q70.jpg_.webp" class="card-img-top w-100 h-100" alt="noimage">
+              <button type="button" class="btn btn-outline-light position-absolute bottom-0 start-50 translate-middle" data-bs-toggle="modal" data-bs-target="#exampleModal">Ver</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://belvedere.com.ar/wp-content/uploads/2022/03/cat-mujer-300x300.jpg" class="card-img-top w-100 h-100" alt="noimage">
+            <button type="button" class="btn btn-outline-light position-absolute bottom-0 start-50 translate-middle" data-bs-toggle="modal" data-bs-target="#exampleModal">Ver</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://facilencasa.com/wp-content/uploads/2019/11/No-hay-descripci%C3%B3n-de-la-foto-disponible_-1-300x300.jpg" class="card-img-top w-100 h-100" alt="noimage">
+            <button type="button" class="btn btn-outline-light position-absolute bottom-0 start-50 translate-middle" data-bs-toggle="modal" data-bs-target="#exampleModal">Ver</button>
+            
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://modelina.com.ar/wp-content/uploads/2023/05/8432-3-300x300.jpg" class="card-img-top w-100 h-100" alt="noimage">
+            <button type="button" class="btn btn-outline-light position-absolute bottom-0 start-50 translate-middle" data-bs-toggle="modal" data-bs-target="#exampleModal">Ver</button>
+            
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://i.etsystatic.com/8630937/r/il/083c5a/517741944/il_300x300.517741944_olw0.jpg" class="card-img-top w-100 h-100" alt="noimage">
+            <button type="button" class="btn btn-outline-light position-absolute bottom-0 start-50 translate-middle" data-bs-toggle="modal" data-bs-target="#exampleModal">Ver</button>
+            
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://animanaonline.com.ar/cdn/shop/products/2022-10-13_ANIMANA_1191_300x300.jpg?v=1666381378" class="card-img-top w-100 h-100" alt="noimage">
+            <button type="button" class="btn btn-outline-light position-absolute bottom-0 start-50 translate-middle" data-bs-toggle="modal" data-bs-target="#exampleModal">Ver</button>
+            
+          </div>
+        </div>
+      </div>
+  </main>
+  <br>
+  <br>
+  <div class="row justify-content-evenly">
+    <div class="card p2 h-25 col-3 border-0">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI-v5zJCX6W-E027gxUxZoqGb_JCJa9nVtAw&usqp=CAU" class="card-img-top w-100 h-100" alt="noimage">
+      <div class="card-body">
+        <h5 class="card-title">Tienda</h5>
+        <p class="card-text"><i class="bi bi-currency-dollar"></i><medium class="text-body-secondary">1000</medium></p>
+      </div>
+    </div>
+    <div class="card p2 h-25 col-3 border-0">
+      <img src="https://cdn-icons-png.flaticon.com/512/1198/1198281.png" class="card-img-top w-100 h-100" alt="noimage">
+      <div class="card-body">
+        <h5 class="card-title">Tienda</h5>
+        <p class="card-text"><i class="bi bi-currency-dollar"></i><medium class="text-body-secondary">2000</medium></p>
+      </div>
+    </div>
+    <div class="card p2 h-25 col-3 border-0">
+      <img src="https://cdn-icons-png.flaticon.com/512/950/950253.png" class="card-img-top w-100 h-100" alt="noimage">
+      <div class="card-body">
+        <h5 class="card-title">Tienda</h5>
+        <p class="card-text"><i class="bi bi-currency-dollar"></i><medium class="text-body-secondary">3000</medium></p>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <div class="row justify-content-center">
+    <div class="col-2">
+      <hr class="border-2 opacity-50 border-primary">
+    </div>
+    <div class="col-2">
+      <text >Productos favoritos</text>
+
+    </div>
+    <div class="col-2">
+      <hr class="border-2 opacity-50 border-primary">
+
+    </div>
+  </div>
+  <br>
+  <br>
+  
+  <div class="card-group">
+    <div class="card mx-3 border-0">
+      <div class="position-relative">
+        <img src="https://i.pinimg.com/474x/6e/76/92/6e769286c65d3ca2a30ffe01df17a1f5.jpg" class="card-img-top" alt="noimage">
+        <button type="button" class="btn btn-outline-light position-absolute bottom-0 start-50 translate-middle" data-bs-toggle="modal" data-bs-target="#exampleModal">Ver</button>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Sweater</h5>
+      </div>
+    </div>
+    <div class="card mx-3 border-0">
+      <div class="position-relative">
+        <img src="https://cautiva.com.ar/wp-content/uploads/2023/04/DF256D6A-07AF-442E-A6DA-F42E01555ED1-400x400.jpeg" class="card-img-top" alt="noimage">
+        <button type="button" class="btn btn-outline-light position-absolute bottom-0 start-50 translate-middle" data-bs-toggle="modal" data-bs-target="#exampleModal">Ver</button>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Sweater</h5>
+       
+      </div>
+    </div>
+    <div class="card mx-3 border-0">
+      <div class="position-relative">
+       <img src="https://www.dhresource.com/0x0/f2/albu/g9/M01/EF/B5/rBVaWF7xezqAC0YsAAETrRecJkg433.jpg" class="card-img-top" alt="noimage">
+       <button type="button" class="btn btn-outline-light position-absolute bottom-0 start-50 translate-middle" data-bs-toggle="modal" data-bs-target="#exampleModal">Ver</button>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Sweater</h5>
+        
+      </div>
+    </div>
+    <div class="card mx-3 border-0">
+      <div class="position-relative">
+       <img src="https://i.pinimg.com/474x/c8/b6/7b/c8b67bfb21ca86a66468a3fd77d7bd93.jpg" class="card-img-top" alt="noimage">
+       <button type="button" class="btn btn-outline-light position-absolute bottom-0 start-50 translate-middle" data-bs-toggle="modal" data-bs-target="#exampleModal">Ver</button>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Sweater</h5>
+        
+      </div>
+    </div>
+    <div class="card mx-3 border-0">
+      <div class="position-relative">
+       <img src="https://www.tiendabullring.com.ar/thumb/000000323210800475838m4x4Untitled_400x400.jpg" class="card-img-top" alt="noimage">
+       <button type="button" class="btn btn-outline-light position-absolute bottom-0 start-50 translate-middle" data-bs-toggle="modal" data-bs-target="#exampleModal">Ver</button>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Sweater</h5>
+        
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="row justify-content-center">
+    <div class="col-3">
+      <hr class="border-2 opacity-50 border-primary">
+    </div>
+    <div class="col-3">
+      <text >Seguinos en nuestras redes sociales</text>
+
+    </div>
+    <div class="col-3">
+      <hr class="border-2 opacity-50 border-primary">
+
+    </div>
+  </div>
+  <br>
+  <br>
+  <div class="row h-50 justify-content-center">
+    <div class="card mx-2 col-3">
+      <img src="https://d3ugyf2ht6aenh.cloudfront.net/stores/962/628/products/72-9c2ff9d0ad583a4a1d16783031063892-480-0.webp" class="card-img-top h-100" alt="noimage">
+      <div class="card-body">
+        <a href="#" class="btn btn-primary">Gift card</a>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="row row-cols-1 row-cols-md-3">
+        <div class="col my-3">
+          <div class="card h-100">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_736816-MLA54627215615_032023-O.webp" class="card-img-top w-100 h-100" alt="noimage">
+          </div>
+        </div>
+        <div class="col my-3">
+          <div class="card h-100">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_751355-MLA54169827329_032023-O.webp" class="card-img-top w-100 h-100" alt="noimage">
+          </div>
+        </div>
+        <div class="col my-3">
+          <div class="card h-100">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_720636-MLA54206297210_032023-O.webp" class="card-img-top w-100 h-100" alt="noimage">
+            
+          </div>
+        </div>
+        <div class="col my-3">
+          <div class="card h-100">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_677740-MLA51079870226_082022-O.webp" class="card-img-top w-100 h-100" alt="noimage">
+            
+          </div>
+        </div>
+        <div class="col my-3">
+          <div class="card h-100">
+            <img src="https://image.made-in-china.com/43f34j00RMsiHLQCCnoI/Women-prime-S-Fashion-Crew-Neck-Long-Sleeve-Stripe-Color-Block-Knit-Sweaters-Monki-Jumper-Pullover-Tops.webp" class="card-img-top w-100 h-100" alt="noimage">
+            
+          </div>
+        </div>
+        <div class="col my-3">
+          <div class="card h-100">
+            <img src="https://algardigital.com.ar/wp-content/uploads/2023/04/Sweater-Eisenman-200x200.webp" class="card-img-top w-100 h-100" alt="noimage">
+            
+          </div>
+        </div>
+      </div>
+  </div>
+   
+  <footer class="bg-dark text-center text-white mt-5" >
+    <div class="container p-4 pb-0">
+      <section class="mb-4">
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="bi bi-facebook"></i>
+        </a>
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="bi bi-twitter"></i>
+        </a>
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="bi bi-google"></i>
+        </a>
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="bi bi-instagram"></i>
+        </a>
+      </section>
+    </div>
+    <div class="text-center p-3" style="background-color: rgba(175, 31, 103, 0.863);">
+      © 2023 Copyright
+    </div>
+  </footer>   
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-5">
+              <img src="https://corona.vtexassets.com/arquivos/ids/3215031-800-auto?v=638228943129100000&width=800&height=auto&aspect=true" class="h-75 img-fluid object-fit-cover" alt="noimage">
+              <div class="h-25 ms-3">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_662882-MLA54545842306_032023-O.webp" class="h-75 img-fluid object-fit-cover rounded-star w-25" alt="noimage">
+                <img src="https://d3ugyf2ht6aenh.cloudfront.net/stores/002/744/146/products/dsc_53711-77abba3bbc58e57cdf16763867354845-1024-1024.webp" class="h-75 img-fluid object-fit-cover rounded-star w-25" alt="noimage">
+              </div>
+            </div>
+            <div class="col-md-7">
+              <div class="card-body">
+                <h5 class="card-title">Sweater</h5>
+                <p class="card-text">Sweater bordados</p>
+                <p class="card-text"><small class="text-body-secondary">Colors:</small></p>
+                <button type="button" class="btn btn-success p-3"></button>
+                <button type="button" class="btn btn-warning p-3"></button>
+                <button type="button" class="btn btn-danger p-3"></button>
+                <p class="card-text"><small class="text-body-secondary">Tallas:</small></p>
+                <p class="card-text"><small class="text-body-secondary">Precio:</small></p>
+                <button type="button" class="btn btn-secondary btn-md">Carrito <i class="bi bi-cart3"></i></button>
+                <button type="button" class="btn btn-link"><i class="bi bi-suit-heart"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+</body>
